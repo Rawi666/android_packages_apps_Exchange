@@ -171,7 +171,7 @@ public class EasProvision extends EasOperation {
         if (result == RESULT_REMOTE_WIPE) {
             performAckRequestForWipe();
             LogUtils.i(LOG_TAG, "Executing remote wipe");
-            PolicyServiceProxy.remoteWipe(mContext);
+//            PolicyServiceProxy.remoteWipe(mContext);
             return false;
         }
 
